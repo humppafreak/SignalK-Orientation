@@ -59,8 +59,8 @@
 // Sensor hardware details: I2C addresses and pins       
 #define BOARD_ACCEL_MAG_I2C_ADDR    (0x1F) ///< I2C address on Adafruit breakout board
 #define BOARD_GYRO_I2C_ADDR         (0x21) ///< I2C address on Adafruit breakout board
-#define PIN_I2C_SDA (23)          // Adjust to your board. A value of -1
-#define PIN_I2C_SCL (25)          //   will use default Arduino pins.
+#define PIN_I2C_SDA (21)          // Adjust to your board. A value of -1
+#define PIN_I2C_SCL (22)          //   will use default Arduino pins.
 #define PIN_SWITCH_CAL_SAVE (36)  // When brought LOW, will save magnetic calibration
 #define SWITCH_ACTIVE_STATE (0)   // Input is LOW when Switch is pushed
 
